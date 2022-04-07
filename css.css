@@ -38,3 +38,6 @@ h3 {
 h4{
   margin-top:20px; margin-right:15px; margin-bottom:20px; margin-left:60px; color:white;
   }
+audio{
+transform: translate(380%, -50%);
+}
