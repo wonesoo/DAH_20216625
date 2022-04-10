@@ -1,5 +1,5 @@
 <!doctype html>
-<html>
+<html lang="en">
 <head>
   <title>wonesoo</title>
   <meta charset="utf-8">
@@ -15,6 +15,8 @@
   <a href="tvt.html">TVT</a>&nbsp;|
   <a href="bk99.html">Brooklyn Nine-Nine</a>
 </header>
+
+
   <img src="word.png" width="700" height="400" style="display: block; margin: 0 auto;">
   <p>
     <h2>원수정</h2><h4>20216625</h4>
@@ -24,11 +26,39 @@
   <audio controls loop>
     <source src="bgm.mp3" type="audio/mpeg">
   </audio>
+
+
+
+      <script language="JavaScript">
+      expireDate = new Date
+      expireDate.setMonth(expireDate.getMonth()+6)
+      hitCt = eval(cookieVal("pageHit"))
+      hitCt++
+      document.cookie = "pageHit="+hitCt+";expires=" + expireDate.toGMTString()
+      function cookieVal(cookieName) {
+        thisCookie = document.cookie.split("; ")
+        for (i=0; i<thisCookie.length; i++) {
+          if (cookieName == thisCookie[i].split("=")[0]) {
+            return thisCookie[i].split("=")[1]
+         }
+      }
+      return 0
+      }
+      </script>
+      <body>
+      <H3 align=center>
+        <SCRIPT LANGUAGE=JAVASCRIPT TYPE="TEXT/JAVASCRIPT">
+      document.write("제 홈페이지의 " + hitCt + " 번째 방문자이시네요.")
+      //-->
+      </SCRIPT>
+      </H3>
+      </body>
+      </html>
+
+
   <p>
     <div id="disqus_thread"></div>
 <script>
-
-
 (function() {
 var d = document, s = d.createElement('script');
 s.src = 'https://web1-2.disqus.com/embed.js';
@@ -36,6 +66,8 @@ s.setAttribute('data-timestamp', +new Date());
 (d.head || d.body).appendChild(s);
 })();
 </script>
+
+
 <noscript>Please enable JavaScript to view the <a href="https://disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>
   </p>
 </body>
